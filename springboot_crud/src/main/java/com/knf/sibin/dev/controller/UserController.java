@@ -20,7 +20,7 @@ import com.knf.sibin.dev.exception.ResourceNotFoundException;
 import com.knf.sibin.dev.model.User;
 import com.knf.sibin.dev.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
 public class UserController {
